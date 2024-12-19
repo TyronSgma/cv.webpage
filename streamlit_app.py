@@ -1,6 +1,8 @@
 import streamlit as st
 from pathlib import Path
 
+
+
 def get_file_content_as_bytes(file_path):
     with open(file_path, "rb") as file:
         return file.read()
@@ -44,7 +46,7 @@ st.subheader("FMS SCHAUMBURGASSE" , anchor=False)
 st.markdown("""
             - Schwerpunkte:Intensive IT-Spezialisierung,Fokus auf moderne Webtechnologin und Wirtschaft
 
-            Zeitraum:September-Laufend
+            - Zeitraum:September-Laufend
             """, unsafe_allow_html=True)
             
 st.header("Arbeitserfahrung" , anchor=False, divider="blue") 
